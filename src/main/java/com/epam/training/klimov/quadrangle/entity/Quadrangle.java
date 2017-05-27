@@ -1,19 +1,34 @@
 package com.epam.training.klimov.quadrangle.entity;
 
-public class Quadrangle {
-    Point a;
-    Point b;
-    Point c;
-    Point d;
+import java.util.ArrayList;
+import java.util.Observable;
+import java.util.Observer;
+
+public class Quadrangle extends ObservableShape {
+    private int id;
+    private Point a;
+    private Point b;
+    private Point c;
+    private Point d;
+    ArrayList<Observer> observers;
 
     public Quadrangle() {
     }
 
-    public Quadrangle(Point a, Point b, Point c, Point d) {
+    public Quadrangle(int id, Point a, Point b, Point c, Point d) {
+        super(id);
         this.a = a;
         this.b = b;
         this.c = c;
         this.d = d;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public Point getA() {

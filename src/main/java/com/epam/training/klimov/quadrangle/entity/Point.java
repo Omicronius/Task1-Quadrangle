@@ -1,13 +1,13 @@
 package com.epam.training.klimov.quadrangle.entity;
 
-public class Point {
-    int x;
-    int y;
+public class Point{
+    private int x;
+    private int y;
 
     public Point() {
     }
 
-    public Point(int x, int y) {
+    public Point(int id, int x, int y) {
         this.x = x;
         this.y = y;
     }

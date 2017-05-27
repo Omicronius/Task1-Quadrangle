@@ -1,8 +1,10 @@
 package com.epam.training.klimov.quadrangle.creator;
 
+import com.epam.training.klimov.quadrangle.entity.ObservableShape;
 import com.epam.training.klimov.quadrangle.entity.Point;
 import com.epam.training.klimov.quadrangle.entity.Quadrangle;
-import com.epam.training.klimov.quadrangle.util.Validator;
+import com.epam.training.klimov.quadrangle.util.IdGenerator;
+import com.epam.training.klimov.quadrangle.util.QuadrangleValidator;
 
 public class QuadrangleCreator {
     private static QuadrangleCreator quadrangleCreator = new QuadrangleCreator();
@@ -14,10 +16,11 @@ public class QuadrangleCreator {
         return quadrangleCreator;
     }
 
-    public static Quadrangle create(Point a, Point b, Point c, Point d) {
-       if (Validator.validatePoints(a, b, c, d)) {
-            return new Quadrangle(a, b, c, d);
-       }
-       throw new UnsupportedOperationException();
+    public Quadrangle create(Point a, Point b, Point c, Point d) {
+        Quadrangle quadrangle = new Quadrangle(IdGenerator.generate(), a, b, c, d);
+        if (QuadrangleValidator.getInstance().validate(quadrangle)) {
+            return quadrangle;
+        }
+        throw new UnsupportedOperationException();
     }
 }
