@@ -1,15 +1,12 @@
 package com.epam.training.klimov.quadrangle.entity;
 
-import com.epam.training.klimov.quadrangle.interfaces.QuadrangleDataObserver;
+import com.epam.training.klimov.quadrangle.observer.ShapeDataObserver;
 
 import java.util.ArrayList;
 
-/**
- * Created by Kos on 27.05.2017.
- */
 public abstract class ObservableShape {
     private int id;
-    private ArrayList<QuadrangleDataObserver> observers;
+    private ArrayList<ShapeDataObserver> observers;
 
     public ObservableShape() {
     }
@@ -19,16 +16,16 @@ public abstract class ObservableShape {
         this.observers = new ArrayList<>();
     }
 
-    public void addObserver(QuadrangleDataObserver observer) {
+    public void addObserver(ShapeDataObserver observer) {
         observers.add(observer);
     }
 
-    public void removeObserver(QuadrangleDataObserver observer) {
+    public void removeObserver(ShapeDataObserver observer) {
         observers.remove(observer);
     }
 
     public void notifyObservers() {
-        for (QuadrangleDataObserver observer : observers) {
+        for (ShapeDataObserver observer : observers) {
             observer.update(this);
         }
     }

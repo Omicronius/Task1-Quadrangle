@@ -1,19 +1,17 @@
 package com.epam.training.klimov.quadrangle.entity;
 
-public class ShapeCharacteristic {
+public class ShapeData {
     private double perimeter;
     private double square;
     private boolean isRectangular;
-    private boolean isConvex;
 
-    public ShapeCharacteristic() {
+    public ShapeData() {
     }
 
-    public ShapeCharacteristic(double perimeter, double square, boolean isRectangular, boolean isConvex) {
+    public ShapeData(double perimeter, double square, boolean isRectangular) {
         this.perimeter = perimeter;
         this.square = square;
         this.isRectangular = isRectangular;
-        this.isConvex = isConvex;
     }
 
     public double getPerimeter() {
@@ -36,15 +34,7 @@ public class ShapeCharacteristic {
         return isRectangular;
     }
 
-    public void setRectangular(boolean rectangular) {
+    public void setRectangularity(boolean rectangular) {
         isRectangular = rectangular;
-    }
-
-    public boolean isConvex() {
-        return isConvex;
-    }
-
-    public void setConvex(boolean convex) {
-        isConvex = convex;
     }
 }

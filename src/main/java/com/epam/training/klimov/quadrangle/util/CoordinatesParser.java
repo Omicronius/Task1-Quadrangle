@@ -2,7 +2,6 @@ package com.epam.training.klimov.quadrangle.util;
 
 import com.epam.training.klimov.quadrangle.entity.Point;
 import com.epam.training.klimov.quadrangle.exception.IncorrectPointsDataException;
-import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -25,7 +24,7 @@ public class CoordinatesParser {
         StringTokenizer st = new StringTokenizer(str, Configuration.POINTS_DELIMITER);
         while (st.hasMoreTokens()) {
             String[] coordinates = st.nextToken().split(Configuration.COORDINATES_DELIMITER);
-            if (coordinates.length != Configuration.DIMENSION) throw new IncorrectPointsDataException();
+            if (coordinates.length != Configuration.DIMENSIONS) throw new IncorrectPointsDataException();
             int x;
             int y;
             try {

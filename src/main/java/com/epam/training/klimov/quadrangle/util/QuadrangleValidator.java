@@ -1,8 +1,8 @@
 package com.epam.training.klimov.quadrangle.util;
 
-import com.epam.training.klimov.quadrangle.entity.ObservableShape;
+import com.epam.training.klimov.quadrangle.entity.Quadrangle;
 
-public class QuadrangleValidator extends Validator {
+public class QuadrangleValidator extends Validator <Quadrangle> {
     private static QuadrangleValidator quadrangleValidator = new QuadrangleValidator();
 
     private QuadrangleValidator() {
@@ -12,7 +12,8 @@ public class QuadrangleValidator extends Validator {
         return quadrangleValidator;
     }
 
-    public boolean validate(ObservableShape quadrangle) {
-        throw new UnsupportedOperationException();
+    @Override
+    boolean validate(Quadrangle observableShape) {
+        return false;
     }
 }
