@@ -1,5 +1,6 @@
 package com.epam.training.klimov.quadrangle.util;
 
+import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -19,9 +20,9 @@ public class InputDataReader {
         try {
             Files.lines(Paths.get(path), StandardCharsets.UTF_8).forEach(result::add);
         } catch (FileNotFoundException e) {
-            logger.error("File not found.");
+            logger.log(Level.ERROR, "File not found.");
         } catch (IOException e) {
-            logger.error("IO Exception", e);
+            logger.log(Level.ERROR, "IO Exception", e);
         }
         return result;
     }

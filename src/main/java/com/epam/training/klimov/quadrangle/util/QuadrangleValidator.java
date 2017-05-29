@@ -3,10 +3,9 @@ package com.epam.training.klimov.quadrangle.util;
 import com.epam.training.klimov.quadrangle.entity.ObservableShape;
 
 public class QuadrangleValidator extends Validator {
-    private static QuadrangleValidator quadrangleValidator;
+    private static QuadrangleValidator quadrangleValidator = new QuadrangleValidator();
 
     private QuadrangleValidator() {
-        quadrangleValidator = new QuadrangleValidator();
     }
 
     public static QuadrangleValidator getInstance() {
