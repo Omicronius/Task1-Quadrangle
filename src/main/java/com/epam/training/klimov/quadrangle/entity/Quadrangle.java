@@ -37,6 +37,7 @@ public class Quadrangle extends ObservableShape {
 
     public void setA(Point a) {
         this.a = a;
+        notifyObservers();
     }
 
     public Point getB() {
@@ -45,6 +46,7 @@ public class Quadrangle extends ObservableShape {
 
     public void setB(Point b) {
         this.b = b;
+        notifyObservers();
     }
 
     public Point getC() {
@@ -53,6 +55,7 @@ public class Quadrangle extends ObservableShape {
 
     public void setC(Point c) {
         this.c = c;
+        notifyObservers();
     }
 
     public Point getD() {
@@ -61,6 +64,7 @@ public class Quadrangle extends ObservableShape {
 
     public void setD(Point d) {
         this.d = d;
+        notifyObservers();
     }
 
     @Override
