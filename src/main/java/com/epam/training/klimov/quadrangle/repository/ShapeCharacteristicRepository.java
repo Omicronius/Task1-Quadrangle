@@ -15,11 +15,11 @@ public class ShapeCharacteristicRepository {
         return shapeCharacteristicRepository;
     }
 
-    public ShapeData getShapeCharasteristicById(int id) {
+    public ShapeData getShapeCharacteristicById(int id) {
         return shapesCharacteristic.get(id);
     }
 
-    public void setShapeCharasteristicById(int id, ShapeData shapeDate) {
+    public void setShapeCharacteristicById(int id, ShapeData shapeDate) {
         shapesCharacteristic.put(id, shapeDate);
     }
 }

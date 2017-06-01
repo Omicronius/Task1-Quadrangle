@@ -5,7 +5,7 @@ import com.epam.training.klimov.quadrangle.entity.Quadrangle;
 
 import java.util.ArrayList;
 
-public class QuadrangleValidator extends Validator <Quadrangle> {
+public class QuadrangleValidator extends AbstractValidator<Quadrangle> {
     private static QuadrangleValidator quadrangleValidator = new QuadrangleValidator();
 
     private QuadrangleValidator() {
@@ -22,6 +22,6 @@ public class QuadrangleValidator extends Validator <Quadrangle> {
         pointsList.add(quadrangle.getB());
         pointsList.add(quadrangle.getC());
         pointsList.add(quadrangle.getD());
-        return checkForAbsencePointsDublicates(pointsList) && checkForConvexity(pointsList);
+        return checkForAbsencePointsDuplicates(pointsList) && checkForConvexity(pointsList);
     }
 }

@@ -19,22 +19,15 @@ public class CoordinatesParser {
         return coordinatesParser;
     }
 
-    public ArrayList<Point> parseCoordinates(String str) throws IncorrectPointsDataException {
+    public static  ArrayList<Point> parseCoordinates(String coorditates) {
         ArrayList<Point> points = new ArrayList<>();
-        StringTokenizer st = new StringTokenizer(str, Configuration.POINTS_DELIMITER);
-        while (st.hasMoreTokens()) {
-            String[] coordinates = st.nextToken().split(Configuration.COORDINATES_DELIMITER);
-            if (coordinates.length != Configuration.DIMENSIONS) throw new IncorrectPointsDataException();
-            int x;
-            int y;
-            try {
-                x = Integer.parseInt(coordinates[0]);
-                y = Integer.parseInt(coordinates[1]);
-                Point point = new Point(x, y);
-                points.add(point);
-            } catch (NumberFormatException e) {
-                throw new IncorrectPointsDataException();
-            }
+        StringTokenizer st = new StringTokenizer(" ");
+        while(st.hasMoreTokens()) {
+            String string = st.nextToken().trim();
+            int x = Integer.parseInt(string.split(" ", 1)[0]);
+            int y = Integer.parseInt(string.split(" ", 1)[0].trim());
+            Point point = new Point(x, y);
+            points.add(point);
         }
         return points;
     }

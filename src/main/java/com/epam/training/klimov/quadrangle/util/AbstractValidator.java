@@ -8,15 +8,15 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 
-public abstract class Validator<T extends ObservableShape> {
+public abstract class AbstractValidator<T extends ObservableShape> {
 
     abstract boolean validate(T observableShape);
 
-    public boolean checkForNotBelongingToOneLine(Point a, Point b, Point c) {
-        return (a.getX() - c.getX()) * (b.getY() - c.getY()) - (b.getX() - c.getX()) * (a.getY() - c.getY()) != 0;
+    public boolean validatePoints(List<Point> points) {
+        return checkForAbsencePointsDuplicates(points) && checkForConvexity(points);
     }
 
-    public boolean checkForAbsencePointsDublicates(List<Point> points) {
+    public boolean checkForAbsencePointsDuplicates(List<Point> points) {
         HashSet<Point> pointsSet = new HashSet<>();
         pointsSet.addAll(points);
         return points.size() == pointsSet.size();
@@ -29,6 +29,7 @@ public abstract class Validator<T extends ObservableShape> {
                 Point a = points.get(i);
                 Point b = points.get((i + 1)%points.size());
                 Point c = points.get((i + 2)%points.size());
+                int xxx = (a.getX() - c.getX()) * (b.getY() - c.getY()) - (b.getX() - c.getX()) * (a.getY() - c.getY());
                 if ((a.getX() - c.getX()) * (b.getY() - c.getY()) - (b.getX() - c.getX()) * (a.getY() - c.getY()) < 0) {
                     edgesChecked++;
                 }

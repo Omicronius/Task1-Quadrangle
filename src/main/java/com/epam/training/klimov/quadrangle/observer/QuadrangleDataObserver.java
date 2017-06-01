@@ -13,6 +13,6 @@ public class QuadrangleDataObserver implements ShapeDataObserver<Quadrangle> {
         shapeData.setPerimeter(Calculator.calculatePerimeter(quadrangle));
         shapeData.setSquare(Calculator.calculateSquare(quadrangle));
         shapeData.setRectangularity(Calculator.checkQuadrangleIsRectangular(quadrangle));
-        ShapeCharacteristicRepository.getInstance().setShapeCharasteristicById(quadrangle.getId(), shapeData);
+        ShapeCharacteristicRepository.getInstance().setShapeCharacteristicById(quadrangle.getId(), shapeData);
     }
 }
