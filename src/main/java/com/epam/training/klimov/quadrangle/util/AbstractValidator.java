@@ -2,9 +2,6 @@ package com.epam.training.klimov.quadrangle.util;
 
 import com.epam.training.klimov.quadrangle.entity.ObservableShape;
 import com.epam.training.klimov.quadrangle.entity.Point;
-import com.epam.training.klimov.quadrangle.entity.Quadrangle;
-
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 
@@ -29,7 +26,6 @@ public abstract class AbstractValidator<T extends ObservableShape> {
                 Point a = points.get(i);
                 Point b = points.get((i + 1)%points.size());
                 Point c = points.get((i + 2)%points.size());
-                int xxx = (a.getX() - c.getX()) * (b.getY() - c.getY()) - (b.getX() - c.getX()) * (a.getY() - c.getY());
                 if ((a.getX() - c.getX()) * (b.getY() - c.getY()) - (b.getX() - c.getX()) * (a.getY() - c.getY()) < 0) {
                     edgesChecked++;
                 }

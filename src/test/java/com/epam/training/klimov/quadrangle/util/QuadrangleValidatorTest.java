@@ -26,7 +26,7 @@ public class QuadrangleValidatorTest {
 
     @Before
     public void initialize() {
-        validator = QuadrangleValidator.getInstance();
+        validator = new QuadrangleValidator();
     }
 
     @Parameterized.Parameters

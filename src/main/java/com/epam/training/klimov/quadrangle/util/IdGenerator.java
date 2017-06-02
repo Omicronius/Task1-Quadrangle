@@ -1,13 +1,9 @@
 package com.epam.training.klimov.quadrangle.util;
 
 public class IdGenerator {
-    private static int counter;
+    private static long counter = 1;
 
-    public IdGenerator() {
-        this.counter = 0;
-    }
-
-    public static int generate() {
+    public static long generate() {
         return counter++;
     }
 }

@@ -5,13 +5,10 @@ import com.epam.training.klimov.quadrangle.observer.ShapeDataObserver;
 import java.util.ArrayList;
 
 public abstract class ObservableShape {
-    private int id;
+    private long id;
     private ArrayList<ShapeDataObserver> observers;
 
-    public ObservableShape() {
-    }
-
-    public ObservableShape(int id) {
+    public ObservableShape(long id) {
         this.id = id;
         this.observers = new ArrayList<>();
     }

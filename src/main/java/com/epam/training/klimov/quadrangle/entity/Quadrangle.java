@@ -5,17 +5,14 @@ import java.util.Observable;
 import java.util.Observer;
 
 public class Quadrangle extends ObservableShape {
-    private int id;
+    private long id;
     private Point a;
     private Point b;
     private Point c;
     private Point d;
     ArrayList<Observer> observers;
 
-    public Quadrangle() {
-    }
-
-    public Quadrangle(int id, Point a, Point b, Point c, Point d) {
+    public Quadrangle(long id, Point a, Point b, Point c, Point d) {
         super(id);
         this.a = a;
         this.b = b;
@@ -23,12 +20,8 @@ public class Quadrangle extends ObservableShape {
         this.d = d;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public Point getA() {
@@ -74,28 +67,34 @@ public class Quadrangle extends ObservableShape {
 
         Quadrangle that = (Quadrangle) o;
 
+        if (id != that.id) return false;
         if (a != null ? !a.equals(that.a) : that.a != null) return false;
         if (b != null ? !b.equals(that.b) : that.b != null) return false;
         if (c != null ? !c.equals(that.c) : that.c != null) return false;
-        return d != null ? d.equals(that.d) : that.d == null;
+        if (d != null ? !d.equals(that.d) : that.d != null) return false;
+        return observers != null ? observers.equals(that.observers) : that.observers == null;
     }
 
     @Override
     public int hashCode() {
-        int result = a != null ? a.hashCode() : 0;
+        int result = (int) (id ^ (id >>> 32));
+        result = 31 * result + (a != null ? a.hashCode() : 0);
         result = 31 * result + (b != null ? b.hashCode() : 0);
         result = 31 * result + (c != null ? c.hashCode() : 0);
         result = 31 * result + (d != null ? d.hashCode() : 0);
+        result = 31 * result + (observers != null ? observers.hashCode() : 0);
         return result;
     }
 
     @Override
     public String toString() {
         return "Quadrangle{" +
-                "a=" + a +
+                "id=" + id +
+                ", a=" + a +
                 ", b=" + b +
                 ", c=" + c +
                 ", d=" + d +
+                ", observers=" + observers +
                 '}';
     }
 }

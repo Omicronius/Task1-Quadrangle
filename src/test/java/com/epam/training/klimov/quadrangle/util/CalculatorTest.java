@@ -10,7 +10,7 @@ public class CalculatorTest {
     public void CalculateTwoPointsDistanceTest() {
         Point a = new Point(0, 0);
         Point b = new Point(3, 4);
-        double actualDistance = Calculator.calculateTwoPointsDistance(a, b);
+        double actualDistance = Calculator.defineDistance(a, b);
         Assert.assertEquals(actualDistance, 5, 0);
     }
     @Test

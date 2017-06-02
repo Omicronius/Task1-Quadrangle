@@ -1,31 +1,21 @@
 package com.epam.training.klimov.quadrangle.util;
 
 import com.epam.training.klimov.quadrangle.entity.Point;
-import com.epam.training.klimov.quadrangle.exception.IncorrectPointsDataException;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class CoordinatesParser {
-    public static Logger logger = LogManager.getLogger(CoordinatesParser.class);
-    private static CoordinatesParser coordinatesParser = new CoordinatesParser();
+    private static final String COORDINATES_DELIMITER = " ";
+    private static final String POINTS_DELIMITER = ",";
 
-    private CoordinatesParser() {
-    }
-
-    public CoordinatesParser getInstance() {
-        return coordinatesParser;
-    }
-
-    public static  ArrayList<Point> parseCoordinates(String coorditates) {
+    public ArrayList<Point> parseCoordinates(String coordinates) {
         ArrayList<Point> points = new ArrayList<>();
-        StringTokenizer st = new StringTokenizer(" ");
-        while(st.hasMoreTokens()) {
+        StringTokenizer st = new StringTokenizer(coordinates, POINTS_DELIMITER);
+        while (st.hasMoreTokens()) {
             String string = st.nextToken().trim();
-            int x = Integer.parseInt(string.split(" ", 1)[0]);
-            int y = Integer.parseInt(string.split(" ", 1)[0].trim());
+            int x = Integer.parseInt(string.split(COORDINATES_DELIMITER, 2)[0]);
+            int y = Integer.parseInt(string.split(COORDINATES_DELIMITER, 2)[1].trim());
             Point point = new Point(x, y);
             points.add(point);
         }

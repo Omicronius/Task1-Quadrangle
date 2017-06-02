@@ -14,9 +14,9 @@ import org.junit.runners.Suite;
         QuadrangleValidatorTest.class,
         InputDataReaderTest.class,
         QuadrangleCreatorTest.class,
-        QuadrangleCreatorTest.class,
         ShapeCharacteristicRepositoryTest.class,
-        InputDataValidatorTest.class
+        InputDataValidatorTest.class,
+        AppTest.class
 })
 public class TestSuite {
 }

@@ -6,22 +6,17 @@ import com.epam.training.klimov.quadrangle.entity.Quadrangle;
 import java.util.ArrayList;
 
 public class QuadrangleValidator extends AbstractValidator<Quadrangle> {
-    private static QuadrangleValidator quadrangleValidator = new QuadrangleValidator();
 
-    private QuadrangleValidator() {
-    }
-
-    public static QuadrangleValidator getInstance() {
-        return quadrangleValidator;
+    public QuadrangleValidator() {
     }
 
     @Override
     public boolean validate(Quadrangle quadrangle) {
-        ArrayList<Point> pointsList = new ArrayList<>();
-        pointsList.add(quadrangle.getA());
-        pointsList.add(quadrangle.getB());
-        pointsList.add(quadrangle.getC());
-        pointsList.add(quadrangle.getD());
-        return checkForAbsencePointsDuplicates(pointsList) && checkForConvexity(pointsList);
+        ArrayList<Point> points = new ArrayList<>();
+        points.add(quadrangle.getA());
+        points.add(quadrangle.getB());
+        points.add(quadrangle.getC());
+        points.add(quadrangle.getD());
+        return checkForAbsencePointsDuplicates(points) && checkForConvexity(points);
     }
 }

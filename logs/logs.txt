@@ -284,3 +284,105 @@ java.nio.file.NoSuchFileException: doesn'tExist.txt
 	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:?]
 	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:?]
 2017-06-01 10:53:25,356 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 20:11:39,333 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:11:39,333 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:11:39,343 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:11:39,343 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:11:39,353 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 20:13:00,765 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:13:00,765 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:13:00,775 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:13:00,775 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:13:00,775 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 20:13:57,296 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:13:57,306 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:13:57,316 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:13:57,316 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:13:57,316 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 20:17:25,665 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:17:50,803 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:18:59,979 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:19:45,865 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:19:45,865 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:19:45,875 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:19:45,875 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:19:45,875 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 20:27:12,288 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:27:20,075 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 20:27:34,074 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 20:27:58,775 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 20:28:55,196 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:30:16,009 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:30:45,852 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:30:45,852 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:30:45,852 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 20:52:36,808 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:52:36,808 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 20:52:36,808 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:23:58,954 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:23:58,954 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:24:58,966 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:24:58,976 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:25:16,421 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:25:16,421 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:25:28,131 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:25:28,151 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:26:02,623 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:26:02,633 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:26:58,724 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:26:58,724 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:29:13,071 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:29:13,071 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:29:39,904 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:29:39,914 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:31:10,055 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:31:10,055 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:32:36,172 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:32:36,172 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:32:45,212 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:32:45,212 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:35:08,694 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:35:08,694 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:35:18,608 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:35:18,618 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:41:08,926 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:41:08,926 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:42:11,082 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:42:11,082 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:44:56,480 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:44:56,490 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:45:40,828 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:45:40,828 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:46:01,271 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:46:01,271 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:46:03,446 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:46:03,446 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:46:29,840 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:46:29,840 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:47:23,377 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:47:23,377 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:47:23,377 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 21:55:08,306 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:55:08,306 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:55:08,316 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 21:55:49,545 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:55:49,555 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:55:55,311 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 21:56:31,404 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:56:31,404 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:57:36,777 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 21:57:38,410 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:57:38,420 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:58:13,331 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 21:58:51,632 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 21:58:51,632 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 22:02:04,147 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 22:02:04,147 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 22:02:04,147 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 22:02:04,147 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 22:02:04,147 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 22:02:43,001 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 22:02:43,001 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created.
+2017-06-02 22:02:43,001 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 22:02:43,001 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-02 22:02:43,001 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.

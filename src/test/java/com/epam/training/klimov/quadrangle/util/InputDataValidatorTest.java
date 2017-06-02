@@ -22,6 +22,7 @@ public class InputDataValidatorTest {
     }
     @Test
     public void validatedCoordinates() throws Exception {
-        Assert.assertEquals(InputDataValidator.validatedCoordinates(unvalidatedStrings).size(), 3);
+        InputDataValidator validator = new InputDataValidator();
+        Assert.assertEquals(validator.validatedCoordinates(unvalidatedStrings).size(), 3);
     }
 }

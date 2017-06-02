@@ -1,14 +1,14 @@
 package com.epam.training.klimov.quadrangle.entity;
 
-public class ShapeData {
+public class ShapeCharacteristic {
     private double perimeter;
     private double square;
     private boolean isRectangular;
 
-    public ShapeData() {
+    public ShapeCharacteristic() {
     }
 
-    public ShapeData(double perimeter, double square, boolean isRectangular) {
+    public ShapeCharacteristic(double perimeter, double square, boolean isRectangular) {
         this.perimeter = perimeter;
         this.square = square;
         this.isRectangular = isRectangular;

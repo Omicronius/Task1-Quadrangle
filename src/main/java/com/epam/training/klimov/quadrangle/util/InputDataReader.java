@@ -16,7 +16,7 @@ import java.util.List;
 public class InputDataReader {
     public static Logger logger = LogManager.getLogger(InputDataReader.class);
 
-    public static ArrayList<String> readDataFromFile(String path) throws InvalidInitializationException {
+    public ArrayList<String> readDataFromFile(String path) throws InvalidInitializationException {
         ArrayList<String> result = new ArrayList<>();
         try {
             Files.lines(Paths.get(path), StandardCharsets.UTF_8).forEach(result::add);
