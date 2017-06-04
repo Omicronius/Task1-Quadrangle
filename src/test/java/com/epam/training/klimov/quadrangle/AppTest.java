@@ -10,9 +10,7 @@ import com.epam.training.klimov.quadrangle.util.CoordinatesParser;
 import com.epam.training.klimov.quadrangle.util.InputDataReader;
 import com.epam.training.klimov.quadrangle.util.InputDataValidator;
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
-
 import java.util.ArrayList;
 
 public class AppTest {
@@ -25,14 +23,15 @@ public class AppTest {
         ShapeCharacteristicRepository repository = ShapeCharacteristicRepository.getInstance();
 
         ArrayList<String> inputData = reader.readDataFromFile("data.txt");
-        inputData = validator.validatedCoordinates(inputData);
-        ArrayList<Point> points = parser.parseCoordinates(inputData.get(0));
+        inputData = validator.validateCoordinates(inputData);
+        ArrayList<Point> points = parser.parseCoordinates(inputData.get(2));
         Quadrangle quadrangle = QuadrangleCreator.getCreator().create(points);
         ShapeCharacteristic characteristic = new ShapeCharacteristic();
         characteristic.setSquare(Calculator.calculateSquare(quadrangle));
-        characteristic.setPerimeter(Calculator.calculateSquare(quadrangle));
+        characteristic.setPerimeter(Calculator.calculatePerimeter(quadrangle));
         characteristic.setRectangularity(Calculator.checkQuadrangleIsRectangular(quadrangle));
         repository.setShapeCharacteristicById(quadrangle.getId(), characteristic);
-        Assert.assertFalse(repository.getShapesCharacteristic().entrySet().isEmpty());
+
+        Assert.assertEquals(repository.getShapesCharacteristic().firstEntry().getValue().getSquare(), 102.228, 0.001);
     }
 }

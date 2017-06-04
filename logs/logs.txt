@@ -386,3 +386,83 @@ java.nio.file.NoSuchFileException: doesn'tExist.txt
 2017-06-02 22:02:43,001 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
 2017-06-02 22:02:43,001 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
 2017-06-02 22:02:43,001 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-04 12:02:48,230 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created. The points are incorrect.
+2017-06-04 12:02:48,230 WARN c.e.t.k.q.c.QuadrangleCreator [main] Quadrangle cannot be created. The points are incorrect.
+2017-06-04 12:02:48,230 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-04 12:02:48,230 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-04 12:02:48,230 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-04 12:07:54,085 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-04 12:07:54,085 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-04 12:07:54,085 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-04 12:08:48,909 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-04 12:29:10,185 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-04 12:29:10,201 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-04 12:29:10,201 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-04 12:29:37,860 WARN c.e.t.k.q.u.InputDataValidator [main] Some strings contains invalid data.
+2017-06-04 12:49:08,865 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 12:49:08,881 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 12:49:08,881 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 12:52:00,117 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 12:52:00,117 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 12:52:00,117 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:10:35,384 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:10:35,384 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:10:35,384 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:13:13,062 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:13:13,062 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:13:13,062 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:13:30,244 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:13:44,839 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:13:44,839 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:13:55,838 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:14:00,382 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:14:00,382 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:14:01,981 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:14:01,991 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:14:01,991 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:14:07,503 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:14:07,503 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:14:07,503 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:15:35,734 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:15:35,734 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:15:35,734 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:15:46,884 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:15:46,894 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:15:46,894 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:20:00,802 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:20:00,802 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:20:00,802 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:21:16,120 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:21:16,120 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:21:16,120 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:21:32,438 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:21:32,438 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:21:49,634 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:21:49,634 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:21:49,634 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:22:08,276 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:22:08,276 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:22:08,276 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:22:55,261 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:22:55,261 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:23:33,849 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:23:33,849 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:23:49,437 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:23:49,447 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:23:56,112 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:23:56,112 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:23:56,112 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:41:10,423 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:41:10,423 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:41:18,157 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:41:18,157 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:41:25,137 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:41:25,137 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:41:30,369 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:41:30,369 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:41:40,761 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:41:40,771 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:42:03,557 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:42:03,557 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:42:15,539 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-04 18:42:15,539 WARN c.e.t.k.q.u.InputDataValidator [main] Some string contains invalid data. It has been skipped.

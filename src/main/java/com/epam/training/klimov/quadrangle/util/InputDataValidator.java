@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 public class InputDataValidator {
     public static Logger logger = LogManager.getLogger(InputDataValidator.class);
 
-    public ArrayList<String> validatedCoordinates(ArrayList<String> inputCoordinates) {
+    public ArrayList<String> validateCoordinates(ArrayList<String> inputCoordinates) {
         Pattern p = Pattern.compile("( *-?\\d+ +-?\\d+ *,){3} *-?\\d+ +-?\\d+");
         ArrayList<String> result = new ArrayList<>();
         for (String coordinates : inputCoordinates) {
@@ -18,7 +18,7 @@ public class InputDataValidator {
             if (m.matches()) {
                 result.add(coordinates);
             } else {
-                logger.log(Level.WARN, "Some strings contains invalid data.");
+                logger.log(Level.WARN, "Some string contains invalid data. It has been skipped.");
             }
         }
         return result;

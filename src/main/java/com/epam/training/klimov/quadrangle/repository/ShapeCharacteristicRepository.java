@@ -1,7 +1,6 @@
 package com.epam.training.klimov.quadrangle.repository;
 
 import com.epam.training.klimov.quadrangle.entity.ShapeCharacteristic;
-
 import java.util.TreeMap;
 
 public class ShapeCharacteristicRepository {

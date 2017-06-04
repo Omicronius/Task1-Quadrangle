@@ -6,7 +6,6 @@ import com.epam.training.klimov.quadrangle.repository.ShapeCharacteristicReposit
 import com.epam.training.klimov.quadrangle.util.Calculator;
 
 public class QuadrangleDataObserver implements ShapeDataObserver<Quadrangle> {
-
     @Override
     public void update(Quadrangle quadrangle) {
         ShapeCharacteristic shapeData = new ShapeCharacteristic();

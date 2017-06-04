@@ -1,6 +1,7 @@
 package com.epam.training.klimov.quadrangle;
 
 import com.epam.training.klimov.quadrangle.creator.QuadrangleCreatorTest;
+import com.epam.training.klimov.quadrangle.observer.QuadrangleDataObserverTest;
 import com.epam.training.klimov.quadrangle.repository.ShapeCharacteristicRepositoryTest;
 import com.epam.training.klimov.quadrangle.util.*;
 import org.junit.runner.RunWith;
@@ -16,6 +17,7 @@ import org.junit.runners.Suite;
         QuadrangleCreatorTest.class,
         ShapeCharacteristicRepositoryTest.class,
         InputDataValidatorTest.class,
+        QuadrangleDataObserverTest.class,
         AppTest.class
 })
 public class TestSuite {

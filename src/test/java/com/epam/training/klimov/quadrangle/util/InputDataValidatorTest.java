@@ -5,9 +5,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-
-import static org.junit.Assert.*;
 
 public class InputDataValidatorTest {
     private ArrayList<String> unvalidatedStrings;
@@ -23,6 +20,6 @@ public class InputDataValidatorTest {
     @Test
     public void validatedCoordinates() throws Exception {
         InputDataValidator validator = new InputDataValidator();
-        Assert.assertEquals(validator.validatedCoordinates(unvalidatedStrings).size(), 3);
+        Assert.assertEquals(validator.validateCoordinates(unvalidatedStrings).size(), 3);
     }
 }

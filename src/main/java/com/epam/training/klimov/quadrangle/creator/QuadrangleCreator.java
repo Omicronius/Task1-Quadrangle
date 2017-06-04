@@ -2,9 +2,9 @@ package com.epam.training.klimov.quadrangle.creator;
 
 import com.epam.training.klimov.quadrangle.entity.Point;
 import com.epam.training.klimov.quadrangle.entity.Quadrangle;
+import com.epam.training.klimov.quadrangle.exception.IncorrectPointsDataException;
 import com.epam.training.klimov.quadrangle.util.IdGenerator;
 import com.epam.training.klimov.quadrangle.util.QuadrangleValidator;
-import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -23,13 +23,11 @@ public class QuadrangleCreator extends AbstractShapeCreator<Quadrangle> {
     }
 
     @Override
-    public Quadrangle create(List<Point> points) {
-        Quadrangle quadrangle = null;
+    public Quadrangle create(List<Point> points) throws IncorrectPointsDataException {
         if (validator.validatePoints(points)) {
-            quadrangle = new Quadrangle(IdGenerator.generate(), points.get(0), points.get(1), points.get(2), points.get(3));
+            return new Quadrangle(IdGenerator.generate(), points.get(0), points.get(1), points.get(2), points.get(3));
         } else {
-            logger.log(Level.WARN, "Quadrangle cannot be created. The points are incorrect.");
+            throw new IncorrectPointsDataException();
         }
-        return quadrangle;
     }
 }

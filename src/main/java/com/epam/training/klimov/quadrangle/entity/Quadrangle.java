@@ -1,7 +1,6 @@
 package com.epam.training.klimov.quadrangle.entity;
 
 import java.util.ArrayList;
-import java.util.Observable;
 import java.util.Observer;
 
 public class Quadrangle extends ObservableShape {
